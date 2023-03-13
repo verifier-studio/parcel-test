@@ -1,0 +1,8 @@
+{
+    "/api": {
+      "target": "http://58.56.195.22:8051/server",
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
