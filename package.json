@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --open",
-    "build": "parcel build --no-source-maps"
+    "build": "rmdir /Q /S dist && parcel build --no-source-maps"
   },
   "author": "zjr",
   "license": "ISC",
